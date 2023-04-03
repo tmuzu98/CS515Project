@@ -33,7 +33,7 @@ def print_room():
         print()
     exits_str = ''.join([f"{exit} " for exit in room['exits']])
     print("Exits:", exits_str)
-    print()
+    # print()
 
 
 @register
@@ -73,7 +73,7 @@ def go(direction):
         else:
             print("You can't go that way.")
     else:
-        print(f"There's no way to go {direction}")
+        print(f"There's no way to go {direction}.")
 
 
 @register
@@ -133,21 +133,21 @@ def show_help():
 
 
 try:
-    print(""" Welcome to The marauders' a magical map that reveals the whole
-    of Hogwarts School of Witchcraft and Wizardry, the map includes:
-    1. Gryffindor Common Room,
-    2. The Hogwarts Library,
-    3. Professor Severus Snape's Office,
-    4. The Great Hall,
-    5. The Headmaster's office,
-    6. The Chamber of Secrets
-        Your object is to somehow reach the Chamber of Secrets with the help of the map.
-        Also there is a  little help Romilda aslks of you to get love potion from
-        Prof. Snape's office. Help a girl out to get to her love.
-        Beware!!! you have limited number of attempts to move around the School.
-        Have Fun!!
-        And currently you are here ||>
-    # """)
+    # print(""" Welcome to The marauders' a magical map that reveals the whole
+    # of Hogwarts School of Witchcraft and Wizardry, the map includes:
+    # 1. Gryffindor Common Room,
+    # 2. The Hogwarts Library,
+    # 3. Professor Severus Snape's Office,
+    # 4. The Great Hall,
+    # 5. The Headmaster's office,
+    # 6. The Chamber of Secrets
+    #     Your object is to somehow reach the Chamber of Secrets with the help of the map.
+    #     Also there is a  little help Romilda aslks of you to get love potion from
+    #     Prof. Snape's office. Help a girl out to get to her love.
+    #     Beware!!! you have limited number of attempts to move around the School.
+    #     Have Fun!!
+    #     And currently you are here ||>
+    # # """)
     print_room()
     while True:
         try:
