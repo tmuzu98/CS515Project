@@ -28,7 +28,7 @@ def print_room():
     room = game_map[current_room]
     print(f"> {room['name']}\n\n{room['desc']}\n")
     if 'items' in room:
-        items_str = ','.join([f"{item} " for item in room['items']])
+        items_str = ', '.join([f"{item} " for item in room['items']])
         print(f"Items: {items_str}")
         print()
     exits_str = ''.join([f"{exit} " for exit in room['exits']])
