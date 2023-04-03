@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Gryffindor Common Room",
+        "desc": "A circular room where Gryffindor students could relax after a long day of studying. Full of squashy armchairs, tables, and a bulletin board where school notices, ads, lost posters, etc. could be posted.",
+        "exits": {
+            "north": 1,
+            "east": 2
+        },
+        "items": [
+            "There is nothing here keep looking"
+        ]
+    },
+    {
+        "name": "The Hogwarts Library",
+        "desc": "Contains tens of thousands of books on thousands of shelves. Overseen by Madam Irma Pince, where students can go to peruse or borrow books to supplement their studies (or for personal enjoyment)",
+        "exits": {
+            "south": 0,
+            "east": 3,
+            "west": 6
+        },
+        "items": []
+    },
+    {
+        "name": "Professor Severus Snape's Office",
+        "desc": "a gloomy and dimly-lit room found in the school dungeons. The shadowy walls were lined with shelves of large glass jars filled with slimy, revolting things, such as bits of animals and plants, floating in potions of varying colours",
+        "exits": {
+            "west": 2,
+            "north": 4
+        },
+        "items": [
+            "love potion"
+        ]
+    },
+    {
+        "name": "The Great Hall",
+        "desc": "large hall with four long tables where students of each House sit at during mealtimes, as well as the staff table at the front, where the entire Hogwarts staff sits.",
+        "exits": {
+            "south": 3,
+            "east": 5,
+            "north": 2
+        },
+        "items": [
+            "food"
+        ]
+    },
+    {
+        "name": "The Headmaster's office",
+        "desc": "The room in Hogwarts Castle that served as the private study of the incumbent Headmaster or Headmistress of Hogwarts School of Witchcraft and Wizardry.",
+        "exits": {
+            "south": 4,
+            "west": 6
+        },
+        "items": [
+            "key"
+        ]
+    },
+    {
+        "name": "The Chamber of Secrets",
+        "desc": "is a legendary secret room constructed by Salazar Slytherin to house a monster which would finish his “noble work.” This noble work would be accomplished when his true heir would open the Chamber and release the monster which lived within to rid the school of non-pureblood students.",
+        "exits": {
+            "east": 2,
+            "north": 5,
+            "west": 0
+        },
+        "items": [
+            "Lock"
+        ]
+    },
+    {
+        "name": "The Room Of Requirement",
+        "desc": "The Room of Requirement is a room on the seventh floor of Hogwarts Castle that appears when someone is in very great need of it, and contains what that individual needs at that time.",
+        "exits": {
+            "east": 1
+        },
+        "items": []
+    }
+]
