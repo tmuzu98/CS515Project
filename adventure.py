@@ -188,4 +188,4 @@ try:
         else:
             print("I don't know how to  do that.")
 except KeyboardInterrupt:
-    print("\nThanks for playing!")
+    print("\nGoodbye!")
